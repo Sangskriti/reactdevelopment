@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    background: #f4f4f4;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  /* General Section Styling */
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: white;
+  }
+  
+  .hero-text {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .features-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .features-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    padding: 50px;
+    background: linear-gradient(135deg, #88d3ce, #6e45e2);
+    color: white;
+    text-align: center;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background: white;
+    color: #6e45e2;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #f4f4f4;
+  }
+  
